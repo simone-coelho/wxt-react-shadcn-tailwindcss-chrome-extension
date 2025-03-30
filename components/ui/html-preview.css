@@ -1,0 +1,128 @@
+/* HTML Preview Container */
+.html-preview-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+/* Content area */
+.html-preview-content {
+  padding: 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: #374151;
+  max-width: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+/* Typography */
+.html-preview-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.html-preview-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.html-preview-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.html-preview-content p {
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+.html-preview-content ul, 
+.html-preview-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.html-preview-content li {
+  margin-bottom: 0.25rem;
+}
+
+/* Links */
+.html-preview-content a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.html-preview-content a:hover {
+  text-decoration: underline;
+}
+
+.html-preview-content .external-link::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+}
+
+/* Images */
+.html-preview-content .image-wrapper {
+  max-width: 100%;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.html-preview-content .responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tables */
+.html-preview-content table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.html-preview-content table th,
+.html-preview-content table td {
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+}
+
+.html-preview-content table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+/* Code blocks */
+.html-preview-content pre {
+  background-color: #f9fafb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.html-preview-content code {
+  font-family: monospace;
+  font-size: 0.875rem;
+  background-color: #f9fafb;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+} 

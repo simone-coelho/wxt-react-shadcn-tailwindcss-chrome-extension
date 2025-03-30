@@ -1,7 +1,15 @@
 export enum MessageType {
     clickExtIcon = "clickExtIcon",
     changeTheme = "changeTheme",
-    changeLocale = "changeLocale"
+    changeLocale = "changeLocale",
+    contentScriptLoaded = "contentScriptLoaded",
+    sidePanelLoaded = "sidePanelLoaded",
+    capturedSelection = "capturedSelection",
+    requestTextSelection = "requestTextSelection",
+    requestCapture = "requestCapture",
+    captureScreenshot = "captureScreenshot",
+    requestScreenshotPermission = "requestScreenshotPermission",
+    testToasts = "testToasts"
 }
 
 export enum MessageFrom {
@@ -14,6 +22,7 @@ export enum MessageFrom {
 class ExtMessage {
     content?: string;
     from?: MessageFrom;
+    metadata?: Record<string, any>;
 
     constructor(messageType: MessageType) {
         this.messageType = messageType;

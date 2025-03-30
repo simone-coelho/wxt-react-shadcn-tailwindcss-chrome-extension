@@ -1,8 +1,8 @@
 {
   "extName": {
-    "message": "wxt-react-shadcn-tailwindcss-chrome-extension"
+    "message": "Research Knowledge Organizer"
   },
   "extDescription": {
-    "message": "This is a boilerplate and starter for chrome browser extension, built with Wxt、 React、 Tailwind css 、Shadcn ui and Typescript.\nSupport dark mode and localization "
+    "message": "Capture, organize, and transform research content from web pages. Save text snippets, screenshots, and full pages for your research projects."
   }
 }

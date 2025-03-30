@@ -13,7 +13,7 @@ declare global {
   const defineContentScript: typeof import('wxt/sandbox')['defineContentScript']
   const defineUnlistedScript: typeof import('wxt/sandbox')['defineUnlistedScript']
   const fakeBrowser: typeof import('wxt/testing')['fakeBrowser']
-  const i18n: typeof import('/Users/tiger/Develop/chrome/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18n')['default']
-  const i18nConfig: typeof import('/Users/tiger/Develop/chrome/wxt-react-shadcn-tailwindcss-chrome-extension/components/i18nConfig')['default']
+  const i18n: typeof import('C:/Users/LAH/Documents/__Development/rexearch-saas/saas-content-extension/rko-extension/components/i18n')['default']
+  const i18nConfig: typeof import('C:/Users/LAH/Documents/__Development/rexearch-saas/saas-content-extension/rko-extension/components/i18nConfig')['default']
   const storage: typeof import('wxt/storage')['storage']
 }

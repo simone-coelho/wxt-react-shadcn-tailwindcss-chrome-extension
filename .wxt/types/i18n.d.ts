@@ -77,7 +77,7 @@ Note: You can't use this message in a manifest file.
     /**
      * No message description.
      *
-     * "wxt-react-shadcn-tailwindcss-chrome-extension"
+     * "Research Knowledge Organizer"
      */
     getMessage(
       messageName: "extName",
@@ -87,8 +87,7 @@ Note: You can't use this message in a manifest file.
     /**
      * No message description.
      *
-     * "This is a boilerplate and starter for chrome browser extension, built with Wxt、 React、 Tailwind css 、Shadcn ui and Typescript.
-Support dark mode and localization "
+     * "Capture, organize, and transform research content from web pages. Save text snippets, screenshots, and full pages for your research projects."
      */
     getMessage(
       messageName: "extDescription",
