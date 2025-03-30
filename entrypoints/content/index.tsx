@@ -505,7 +505,7 @@ function captureForceSelection(type: CaptureType): CapturedContent | null {
         content: content,
         title: document.title,
         url: window.location.href,
-        timestamp: new Date(),
+        timestamp: Date.now(),
         metadata: pageMetadata
     };
 }
